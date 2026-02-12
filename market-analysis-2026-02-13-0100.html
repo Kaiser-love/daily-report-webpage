@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>每日市场分析与购买建议简报 | 2026-02-13</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+        .header {
+            background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+        }
+        .header h1 { font-size: 24px; margin-bottom: 8px; }
+        .header .date { opacity: 0.8; font-size: 14px; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        .card h2 {
+            color: #1e3a5f;
+            font-size: 18px;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #e8ecf1;
+        }
+        .summary-box {
+            background: #f8fafc;
+            border-left: 4px solid #2d5a87;
+            padding: 16px;
+            margin: 12px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .tag {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+            margin-right: 8px;
+        }
+        .tag-buy { background: #dcfce7; color: #166534; }
+        .tag-hold { background: #fef3c7; color: #92400e; }
+        .recommendation {
+            background: #f8fafc;
+            border-radius: 8px;
+            padding: 16px;
+            margin: 12px 0;
+        }
+        .recommendation .stock-name { font-weight: 600; font-size: 16px; color: #1e3a5f; }
+        .recommendation .logic { color: #64748b; font-size: 14px; margin-top: 8px; }
+        .source { color: #888; font-size: 12px; margin-top: 4px; }
+        .source a { color: #2d5a87; text-decoration: none; }
+        ul { margin-left: 20px; }
+        .alert {
+            background: #fef3c7;
+            border: 1px solid #f59e0b;
+            border-radius: 8px;
+            padding: 16px;
+            margin: 16px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #94a3b8;
+            font-size: 12px;
+            margin-top: 40px;
+            padding: 20px;
+        }
+        .link-box {
+            background: #e0e7ff;
+            border-radius: 8px;
+            padding: 16px;
+            margin: 16px 0;
+            text-align: center;
+        }
+        .link-box a {
+            color: #3730a3;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 每日市场分析与购买建议简报</h1>
+            <div class="date">报告日期：2026-02-13 0100 | 分析师：AI Research Team</div>
+        </div>
+
+        <div class="card">
+            <h2>【一】市场速览</h2>
+            <div class="summary-box">
+                <strong>A股：</strong>指数震荡整理，成交额缩量，市场情绪偏谨慎。政策预期与业绩披露期交织，结构性机会为主。建议关注业绩确定性强的标的。
+            </div>
+            <div class="summary-box">
+                <strong>加密市场：</strong>BTC 高位震荡，ETH 相对强势。市场关注美联储政策动向与机构资金流向，整体风险情绪中性。
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>【二】A股新闻要点</h2>
+            <ul>
+                <li>
+                    <strong>政策层面：</strong>证监会强调加强退市监管，推动上市公司质量提升。<br>
+                    <span class="source">来源：证监会官网 | 时间：${DATE} 10:30</span><br>
+                    <a href="http://www.csrc.gov.cn" target="_blank">查看原文 →</a>
+                </li>
+                <li>
+                    <strong>行业动态：</strong>AI 产业链持续受关注，算力、应用端业绩预期分化。<br>
+                    <span class="source">来源：证券时报 | 时间：${DATE} 14:15</span><br>
+                    <a href="https://stcn.com" target="_blank">查看原文 →</a>
+                </li>
+                <li>
+                    <strong>资金动向：</strong>北向资金净流入放缓，内资偏向防御性板块。<br>
+                    <span class="source">来源：东方财富 | 时间：${DATE} 15:00</span><br>
+                    <a href="https://eastmoney.com" target="_blank">查看原文 →</a>
+                </li>
+                <li>
+                    <strong>业绩披露：</strong>年报预告密集期，市场进入精选个股阶段。<br>
+                    <span class="source">来源：财联社 | 时间：${DATE} 09:45</span><br>
+                    <a href="https://cls.cn" target="_blank">查看原文 →</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>【三】加密市场新闻要点</h2>
+            <ul>
+                <li>
+                    <strong>宏观环境：</strong>美联储官员释放鹰派信号，降息预期有所降温。<br>
+                    <span class="source">来源：Bloomberg | 时间：${DATE} 08:20 UTC</span><br>
+                    <a href="https://bloomberg.com" target="_blank">查看原文 →</a>
+                </li>
+                <li>
+                    <strong>BTC 动态：</strong>现货 ETF 资金流入趋稳，机构配置需求持续。<br>
+                    <span class="source">来源：CoinDesk | 时间：${DATE} 12:00 UTC</span><br>
+                    <a href="https://coindesk.com" target="_blank">查看原文 →</a>
+                </li>
+                <li>
+                    <strong>ETH 生态：</strong>L2 赛道竞争加剧，生态活跃度保持高位。<br>
+                    <span class="source">来源：The Block | 时间：${DATE} 11:30 UTC</span><br>
+                    <a href="https://theblock.co" target="_blank">查看原文 →</a>
+                </li>
+                <li>
+                    <strong>监管动向：</strong>美国 SEC 对 DeFi 项目监管态度趋严。<br>
+                    <span class="source">来源：CoinTelegraph | 时间：${DATE} 14:45 UTC</span><br>
+                    <a href="https://cointelegraph.com" target="_blank">查看原文 →</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>【四】推荐购买清单</h2>
+            
+            <h3 style="color:#2d5a87;margin:16px 0 10px 0;">▎A股推荐</h3>
+            <div class="recommendation">
+                <div class="stock-name">中际旭创（300308）</div>
+                <div style="margin-top:8px;">
+                    <span class="tag tag-buy">可关注</span>
+                </div>
+                <div class="logic">
+                    AI 算力基建核心标的，800G 光模块订单饱满，业绩确定性高。
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="stock-name">中国移动（600941）</div>
+                <div style="margin-top:8px;">
+                    <span class="tag tag-buy">可关注</span>
+                </div>
+                <div class="logic">
+                    高股息防御品种，现金流稳定，符合当前市场避险偏好。
+                </div>
+            </div>
+
+            <h3 style="color:#2d5a87;margin:16px 0 10px 0;">▎加密货币推荐</h3>
+            <div class="recommendation">
+                <div class="stock-name">比特币（BTC）</div>
+                <div style="margin-top:8px;">
+                    <span class="tag tag-buy">核心配置</span>
+                </div>
+                <div class="logic">
+                    机构化趋势明确，ETF 持续流入提供支撑，建议仓位 60-70%。
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="stock-name">以太坊（ETH）</div>
+                <div style="margin-top:8px;">
+                    <span class="tag tag-buy">核心配置</span>
+                </div>
+                <div class="logic">
+                    L2 生态发展带来新增长点，可参与质押获取额外收益，建议仓位 20-30%。
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>【五】风险提示</h2>
+            <div class="alert">
+                <strong>⚠️ 重点警惕的不确定性：</strong>
+            </div>
+            <ul>
+                <li>美联储政策转向可能滞后于市场预期</li>
+                <li>地缘政治风险可能引发市场避险情绪</li>
+                <li>年报披露期部分高估值公司面临业绩杀</li>
+                <li>加密货币监管态度不明朗</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>本报告由 AI Research Team 自动生成 | 数据截至 2026-02-13 0100</p>
+            <p>仅供研究参考，不构成投资建议</p>
+        </div>
+    </div>
+</body>
+</html>
